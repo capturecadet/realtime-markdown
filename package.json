@@ -3,6 +3,9 @@
   "description": "Realtime Markdown Viewer",
   "main": "server.js",
   "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:capturecadet/realtime-markdown.git"

@@ -3,11 +3,12 @@ html, body, section, .full-height {
 } 
 
 #pad{
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-
+  background-color: #2D3737;
   border: none;
-  overflow: auto;
+  color: #FFF;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
   outline: none;
+  overflow: auto;
   resize: none;
 
   -webkit-box-shadow: none;
@@ -16,6 +17,6 @@ html, body, section, .full-height {
 }
 
 #markdown {
+  border-left: 1px solid #2D3737;
   overflow: auto;
-  border-left: 1px solid black;
 }
